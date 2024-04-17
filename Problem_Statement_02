@@ -16,3 +16,30 @@ This problem statement is subject to only single Function call —> get_tshirt(b
  ""\\  students have to create an optional argument to the function get_tshirt() with size as one of the parameters. //""
 
 """
+
+def get_name():
+    name=input("Enter your name : ")
+    return name
+
+def get_tshirt(brand_name, size=0):
+    user_name = get_name()
+    
+    Brands=["nike","adidas","puma","gucci","h&m"]
+    
+    n=input("Brand name you are Looking for : ")
+    if n in Brands:
+        system="Hi " +user_name+ ",the brand you are looking for is available in our store "
+        k=["S","M","L","XL"]
+        size=input("Enter your tshirt size : ")
+        if size in k:
+            system = system + "and Size " +size+ " is also available."
+            print(system)
+        else:
+            system = system + "but Size " +size+ " is not available."
+            print(system)
+    else:
+        print("Hi " +user_name+ ",Unfortunately the brand you are looking for is not available in our store.")
+
+brand_name="Brands"
+size="size"
+get_tshirt(brand_name,size)
