@@ -1,0 +1,20 @@
+"""
+
+You are an owner of a restaurant and you would like to check orders being accepted and being
+dispatched. You have asked a developer to design a system that processes orders one by one
+and dispatches them in a sequence that the restaurant has received.
+Developer must have to produce the following output:
+Preparing Your Order - (Order_1)
+Preparing Your Order - (Order_2)
+Preparing Your Order - (Order_3)
+The following orders have been dispatched.
+Order_1
+Order_2
+Order_3
+* You can add order name of your choice like (Palak Paneer, Dhokla etc )
+
+Constraint: Developer has to choose a data type based on stack.
+Store input in the form of list and pass it to the function get_order(order) you are allowed to use
+the reverse method of list. Use of stack based methods are mandatory.
+
+"""
