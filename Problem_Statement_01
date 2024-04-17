@@ -14,3 +14,21 @@ Helper Function name—> get_name()
 This problem statement is subject to only single Function call —> get_tshirt(brand_name)
 
 """
+
+def get_name():
+    name=input("Enter your name : ")
+    return name
+
+def get_tshirt(brand_name):
+    user_name = get_name()
+    
+    Brands=["nike","adidas","puma","gucci","h&m"]
+    
+    n=input("Enter the Brand name you are Looking for : ")
+    if n in Brands:
+        print("Hi " + user_name + ", the brand you are looking for is available in our store.")
+    else:
+        print("Hi "+user_name+", Unfortunately the brand you are looking for is not available in our store.")
+
+brand_name="Brands"       
+get_tshirt(brand_name)
