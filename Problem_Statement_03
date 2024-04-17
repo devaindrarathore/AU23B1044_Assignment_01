@@ -18,3 +18,24 @@ Store input in the form of list and pass it to the function get_order(order) you
 the reverse method of list. Use of stack based methods are mandatory.
 
 """
+
+order_list=[]
+for i in range(int(input("Total no of item you have to order : "))):
+    order_list.append(input("What you want to order : "))
+    i=i+1
+print("You have ordered : ",order_list)
+
+def get_order(orders):
+    
+    for items in order_list:
+        print("Preparing Your Order - ",items)
+        
+    if order_list:
+        order_list.reverse()
+        
+    print("The following orders have been dispatched.")    
+    while order_list:
+        print(order_list.pop())
+        
+orders="order"
+get_order(orders)
