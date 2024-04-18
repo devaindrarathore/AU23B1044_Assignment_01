@@ -1,0 +1,22 @@
+"""
+
+Problem Statement_06
+The following computation is made to calculate the Return on Investment (ROI) made on
+digital products (Digital Merchandise, E-Commerce , Edtech products etc.)
+Image Courtesy - Human Factors Internationals
+Objective of this problem is to understand functional dependencies of ROI calculation made
+towards UX projects in industry on various factors
+like Total gain from improvements depends on Future Gain from Improvement etc.
+Design and build solution to compute ROI using functions
+Recommended Approach:
+Step-01: Understand the Requirements of Computation (It includes understanding of the terms
+involved)
+Step-02: Design independent functions for computing various related factors (Validate the Results
+and then Proceed)
+Step-03: Cascade the dependent function and return valid result of computation
+Step-04: Demonstrate reusability aspect or modularity in doing computation HINT: Refer to
+Problem Statement_04
+Step-05: Making computation more efficient and practical to implement (eg-Visitors who
+purchased the products can’t be greater than site visitors ).
+
+"""
